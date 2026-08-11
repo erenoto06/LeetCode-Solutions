@@ -8,6 +8,13 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+ #pragma GCC optimize("O3", "unroll-loops")
+auto init = []() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    return 'c';
+}();
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
