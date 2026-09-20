@@ -7,5 +7,10 @@ public:
             maxGap = max(nums[i + 1] - nums[i], maxGap);
         }
         return maxGap;
+
     }
 };
+
+          
+          
+
