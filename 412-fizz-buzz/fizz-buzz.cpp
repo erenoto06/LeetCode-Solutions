@@ -17,9 +17,9 @@ public:
     }
     
     vector<string> fizzBuzz(int n) {
-        vector<string> result;
+        vector<string> result(n);
         for (int j = 1;j <= n;j++) {
-            result.push_back(addItem(j));
+            result[j - 1] = addItem(j);
         }
         return result;
     }
